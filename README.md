@@ -11,7 +11,7 @@
 
 ### 1. Клонируйте репозиторий
 ```bash
-git clone https://github.com/your-username/website_monitor_tg_bot.git
+git clone https://github.com/xknowen/website_monitor_tg_bot.git
 cd website_monitor_tg_bot
 ```
 
