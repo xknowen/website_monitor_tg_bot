@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  bot:
+    build: .
+    container_name: site_monitor_bot
+    env_file: .env
+    volumes:
+      - ./site_monitor.db:/app/site_monitor.db  # сохраняем базу между перезапусками
+      - ./logs:/app/logs                       # сохраняем логи
+    restart: unless-stopped
